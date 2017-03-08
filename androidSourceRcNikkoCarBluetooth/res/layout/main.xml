@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2009 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/tableLayoutMain">
+    <ListView android:id="@+id/in"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stackFromBottom="true"
+        android:transcriptMode="alwaysScroll"
+        android:layout_weight="1"
+    />
+    <TableLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/tableLayoutRowAll">
+        <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/tableRowTurbo">
+            <Button android:layout_height="wrap_content" android:clickable="false" android:layout_width="wrap_content" android:id="@+id/ButtonTUPL" android:text="Turbo + UP + L"></Button>
+            <Button android:layout_height="wrap_content" android:clickable="false" android:layout_width="wrap_content" android:id="@+id/ButtonTUP" android:text="Turbo+ UP°"></Button>
+            <Button android:layout_height="wrap_content" android:clickable="false" android:layout_width="wrap_content" android:id="@+id/ButtonTUPR" android:text="Turbo + UP + R"></Button>
+        </TableRow>
+        <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/tableRowUP">
+            <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:clickable="false" android:id="@+id/buttonUPL" android:text="UP+L"></Button>
+            <Button android:id="@+id/buttonUp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="UP" android:clickable="false"></Button>
+            <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:clickable="false" android:id="@+id/buttonUPR" android:text="UP+R"></Button>
+        </TableRow>
+        <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/tableRowMidle">
+            <Button android:id="@+id/buttonLeft" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Left" android:clickable="false"></Button>
+            <Button android:id="@+id/button1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:clickable="false" android:text="&lt; &lt; /-\ &gt; &gt;"></Button>
+            <Button android:id="@+id/buttonRight" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Right" android:clickable="false"></Button>
+        </TableRow>
+        <TableRow android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/tableRowDown">
+            <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:clickable="false" android:id="@+id/buttonDWL" android:text="DW+L"></Button>
+            <Button android:id="@+id/buttonDown" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Down" android:clickable="false"></Button>
+            <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:clickable="false" android:id="@+id/buttonDWR" android:text="DW+R"></Button>
+        </TableRow>
+    </TableLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <EditText android:id="@+id/edit_text_out"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="bottom"
+        />
+        <Button android:id="@+id/button_send"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/send"
+        />
+    </LinearLayout>
+</LinearLayout>

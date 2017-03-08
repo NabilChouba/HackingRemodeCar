@@ -1,0 +1,747 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>3392576248</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\export\accl_appl\appl_cb.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\export\accl_appl\appl_spp.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\export\common_appl\appl_bt_rf.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\export\accl_appl\appl_sdk.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\export\common_appl\common_cb.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\export\common_appl\db_gen.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\private\platforms\arch\msp430\msp430_uart.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\export\common_appl\sdk_bluetooth_common_config.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\export\accl_appl\sdk_bluetooth_config.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\export\common_appl\sdk_common.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\export\common_appl\sdk_pin_config.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\export\accl_appl\sdk_pl.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\export\accl_appl\user_task.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\export\common_appl\sm_storage_pl.c</file>
+      <file>$PROJ_DIR$\..\..\..\lib\iar\libspp_core.r43</file>
+      <file>$PROJ_DIR$\..\..\..\lib\iar\libspp_pl.r43</file>
+      <file>$PROJ_DIR$\..\..\..\lib\iar\libTI_init_script_BT_CC2560.r43</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\export\msp430f5438_hal\hal_i2c.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\export\msp430f5438_hal\hal_board.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\export\msp430f5438_hal\hal_tlv.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\export\msp430f5438_hal\hal_usb.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\export\FreeRTOS\Source\croutine.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\export\FreeRTOS\Source\portable\MemMang\heap_2.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\export\FreeRTOS\Source\portable\MemMang\heap_bt.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\export\FreeRTOS\Source\list.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\export\FreeRTOS\Source\portable\IAR\MSP430\port.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\export\FreeRTOS\Source\portable\IAR\MSP430\portext.s43</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\export\FreeRTOS\Source\queue.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\export\FreeRTOS\Source\tasks.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\export\common_appl\main.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.r43</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\private\platforms\arch\common\BT_limits.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\export\FreeRTOS\Source\include\mpu_wrappers.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\hal_tlv.r43</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\private\platforms\arch\common\BT_assert.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\export\accl_appl\appl_sdk.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\private\platforms\arch\common\BT_task.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\export\common_appl\bt_sdk_error.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\private\platforms\arch\common\BT_debug.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\queue.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\hal_i2c.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\private\platforms\arch\msp430\hci_uart.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\export\FreeRTOS\Source\include\FreeRTOS.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\appl_spp.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\common_cb.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\db_gen.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\heap_2.r43</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Defaults.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\export\include\l2cap.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\user_task.r43</file>
+      <file>$TOOLKIT_DIR$\inc\in430.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\export\FreeRTOS\Source\include\semphr.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\appl_cb.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\private\platforms\arch\common\BT_buffer.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\export\msp430f5438_hal\hal_MSP430F5438.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\export\msp430f5438_hal\hal_buttons.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\portext.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\appl_bt_rf.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\private\platforms\arch\common\vendor_specific_init.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Threads.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\xencoding_limits.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\export\common_appl\arch_defines.h</file>
+      <file>$TOOLKIT_DIR$\inc\msp430bt5190.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\export\FreeRTOS\Source\include\croutine.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\string.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\export\include\BT_sm_api.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\export\msp430f5438_hal\hal_board.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\export\FreeRTOS\Source\include\StackMacros.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\yvals.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Product.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\private\platforms\arch\common\BT_debug_api.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\private\platforms\arch\common\BT_timer.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\port.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\heap_2.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\heap_bt.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\list.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\export\msp430f5438_hal\hal_adc.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\appl_sdk.r43</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\export\FreeRTOS\Source\include\portable.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\sdk_pl.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\sm_storage_pl.r43</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\export\FreeRTOS\Demo\msp430_IAR\FreeRTOSConfig.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\export\msp430f5438_hal\hal_i2c.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\export\include\BT_error.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\stddef.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\export\FreeRTOS\Source\portable\IAR\MSP430\portmacro.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\private\platforms\arch\common\sm_ssp_pl.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\export\FreeRTOS\Source\include\queue.h</file>
+      <file>$PROJ_DIR$\Debug\Exe\ez430-accl.d43</file>
+      <file>$PROJ_DIR$\Debug\Obj\ez430-accl.pbd</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\private\platforms\arch\common\BT_queue.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\export\FreeRTOS\Source\include\list.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\export\include\BT_common.h</file>
+      <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\export\FreeRTOS\Source\include\projdefs.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\export\accl_appl\sdk_pl.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\export\include\BT_assigned_numbers.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\export\accl_appl\appl_spp.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\msp430_uart.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\sdk_common.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\sdk_pl.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\ycheck.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\private\platforms\arch\msp430\BT_features.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\ysizet.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\croutine.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\stdio.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\export\common_appl\appl_bt_rf.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\ystdio.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\export\accl_appl\appl_menu_pl.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\export\msp430f5438_hal\hal_usb.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\export\msp430f5438_hal\hal_tlv.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\export\include\BT_status.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\private\platforms\arch\common\BT_common_pl.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\sm_storage_pl.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\private\platforms\arch\common\BT_os.h</file>
+      <file>$TOOLKIT_DIR$\config\multiplier32_loc2.xcl</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\export\include\BT_spp_api.h</file>
+      <file>$PROJ_DIR$\Debug\List\ez430-accl.map</file>
+      <file>$TOOLKIT_DIR$\config\lnk430BT5190.xcl</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\export\include\write_task.h</file>
+      <file>$TOOLKIT_DIR$\lib\dlib\dl430xlff.h</file>
+      <file>$TOOLKIT_DIR$\lib\dlib\dl430xlff.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\appl_cb.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\hal_board.r43</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\export\common_appl\db_gen.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\export\common_appl\sm_storage_pl.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\export\include\BT_sdp_api.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\hal_tlv.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\hal_usb.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\stdlib.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\private\platforms\arch\msp430\msp430_uart.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\tasks.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\tasks.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\common_cb.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\appl_spp.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\msp430_uart.r43</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\export\include\BT_api.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\hal_i2c.r43</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\export\include\BT_rfcomm_api.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\export\include\BT_dbase_api.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\user_task.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\export\common_appl\sdk_common.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\hal_board.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\queue.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\heap_bt.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\list.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\db_gen.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\appl_sdk.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\private\platforms\arch\common\sm_pl.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\sdk_common.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\appl_bt_rf.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\hal_usb.r43</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\export\include\BT_hci_api.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\croutine.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\port.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\export\FreeRTOS\Source\include\task.h</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\export\accl_appl\appl_cb.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 52</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 123</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 35 96 109 54 61 62 50 94 55 77 67 110 111 83 82 86 41 8 7 10 131 153 93 115 65 102 69 47 70 60 59 104 103 42 85 95 79 32 51 88 31 97 84 34 38 106 108 71 112 72 120 125 140 113 156 92 142 137 66 149 87 127 139 98 117 107 58 37</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 35 96 109 54 61 62 50 94 55 77 67 110 111 83 82 86 41 8 7 10 131 153 93 115 65 102 69 47 121 70 60 59 104 103 42 85 95 79 32 51 88 31 97 84 34 38 106 108 71 112 72 120 125 140 113 156 92 142 137 66 149 87 127 139 98 117 107 58 37</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\export\accl_appl\appl_spp.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 43</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 135</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 98 117 137 93 115 65 102 69 47 70 60 59 104 103 82 61 62 50 94 86 41 42 85 95 79 32 51 88 31 97 84 34 38 106 108 71 112 72 120 125 140 113 66 153 149 87 127 139 48 35 96 109 54 55 77 67 110 111 83 8 7 10 131 156 92 142 107</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 98 117 137 93 115 65 102 69 47 121 70 60 59 104 103 82 61 62 50 94 86 41 42 85 95 79 32 51 88 31 97 84 34 38 106 108 71 112 72 120 125 140 113 66 153 149 87 127 139 48 35 96 109 54 55 77 67 110 111 83 8 7 10 131 156 92 142 107</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\export\common_appl\appl_bt_rf.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 57</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 151</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 93 115 65 102 69 47 70 60 59 104 103 82 61 62 50 94 86 41 42 85 95 79 32 51 88 31 97 84 34 38 106 108 71 112 72 120 125 140 113 8 7 10 107 96 109 54 55 77 67 110 111 83 131 153 156 92 142 58 37</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 93 115 65 102 69 47 121 70 60 59 104 103 82 61 62 50 94 86 41 42 85 95 79 32 51 88 31 97 84 34 38 106 108 71 112 72 120 125 140 113 8 7 10 107 96 109 54 55 77 67 110 111 83 131 153 156 92 142 58 37</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\export\accl_appl\appl_sdk.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 148</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 78</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 35 96 109 54 61 62 50 94 55 77 67 110 111 83 82 86 41 8 7 10 131 153 93 115 65 102 69 47 70 60 59 104 103 42 85 95 79 32 51 88 31 97 84 34 38 106 108 71 112 72 120 125 140 113 156 92 142 137 66 149 87 127 139 98 117 48 107</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 35 96 109 54 61 62 50 94 55 77 67 110 111 83 82 86 41 8 7 10 131 153 93 115 65 102 69 47 121 70 60 59 104 103 42 85 95 79 32 51 88 31 97 84 34 38 106 108 71 112 72 120 125 140 113 156 92 142 137 66 149 87 127 139 98 117 48 107</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\export\common_appl\common_cb.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 44</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 134</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 35 96 109 54 61 62 50 94 55 77 67 110 111 83 82 86 41 8 7 10 131 153 93 115 65 102 69 47 70 60 59 104 103 42 85 95 79 32 51 88 31 97 84 34 38 106 108 71 112 72 120 125 140 113 156 92 142 137 66 149 87 127 139 98 117 107 58</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 35 96 109 54 61 62 50 94 55 77 67 110 111 83 82 86 41 8 7 10 131 153 93 115 65 102 69 47 121 70 60 59 104 103 42 85 95 79 32 51 88 31 97 84 34 38 106 108 71 112 72 120 125 140 113 156 92 142 137 66 149 87 127 139 98 117 107 58</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\export\common_appl\db_gen.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 45</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 147</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 125 93 115 65 102 69 47 70 60 59 104 103 82 61 62 50 94 86 41 42 85 95 79 32 51 88 31 97 84 34 38 106 108 71 112 72 120 113 140</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 125 93 115 65 102 69 47 121 70 60 59 104 103 82 61 62 50 94 86 41 42 85 95 79 32 51 88 31 97 84 34 38 106 108 71 112 72 120 113 140</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\private\platforms\arch\msp430\msp430_uart.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 99</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 136</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 96 109 54 61 62 50 94 55 77 67 110 111 83 82 86 41 8 7 10 131 153 93 115 65 102 69 47 70 60 59 104 103 42 85 95 79 32 51 88 31 97 84 34 38 106 108 71 112 72 120 125 140 113 156 92 142 91 107 58 37</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 96 109 54 61 62 50 94 55 77 67 110 111 83 82 86 41 8 7 10 131 153 93 115 65 102 69 47 121 70 60 59 104 103 42 85 95 79 32 51 88 31 97 84 34 38 106 108 71 112 72 120 125 140 113 156 92 142 91 107 58 37</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\export\common_appl\sdk_common.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 100</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 150</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 96 109 54 61 62 50 94 55 77 67 110 111 83 82 86 41 8 7 10 131 153 93 115 65 102 69 47 70 60 59 104 103 42 85 95 79 32 51 88 31 97 84 34 38 106 108 71 112 72 120 125 140 113 156 92 142 36 35 137 66 149 87 127 139 98 117 48 58 37</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 96 109 54 61 62 50 94 55 77 67 110 111 83 82 86 41 8 7 10 131 153 93 115 65 102 69 47 121 70 60 59 104 103 42 85 95 79 32 51 88 31 97 84 34 38 106 108 71 112 72 120 125 140 113 156 92 142 36 35 137 66 149 87 127 139 98 117 48 58 37</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\export\accl_appl\sdk_pl.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 101</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 80</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 96 109 54 61 62 50 94 55 77 67 110 111 83 82 86 41 8 7 10 131 153 93 115 65 102 69 47 70 60 59 104 103 42 85 95 79 32 51 88 31 97 84 34 38 106 108 71 112 72 120 125 140 113 156 92 142 91 35 137 66 149 87 127 139 98 117 107 58 37</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 96 109 54 61 62 50 94 55 77 67 110 111 83 82 86 41 8 7 10 131 153 93 115 65 102 69 47 121 70 60 59 104 103 42 85 95 79 32 51 88 31 97 84 34 38 106 108 71 112 72 120 125 140 113 156 92 142 91 35 137 66 149 87 127 139 98 117 107 58 37</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\export\accl_appl\user_task.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 141</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 49</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 96 109 54 61 62 50 94 55 77 67 110 111 83 82 86 41 8 7 10 131 153 93 115 65 102 69 47 70 60 59 104 103 42 85 95 79 32 51 88 31 97 84 34 38 106 108 71 112 72 120 125 140 113 156 92 142 35 137 66 149 87 127 139 98 117 36</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 96 109 54 61 62 50 94 55 77 67 110 111 83 82 86 41 8 7 10 131 153 93 115 65 102 69 47 121 70 60 59 104 103 42 85 95 79 32 51 88 31 97 84 34 38 106 108 71 112 72 120 125 140 113 156 92 142 35 137 66 149 87 127 139 98 117 36</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\export\common_appl\sm_storage_pl.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 114</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 81</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 126 82 61 62 50 94 86 41</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 126 82 61 62 50 94 86 41</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\export\msp430f5438_hal\hal_i2c.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 40</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 138</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 61 62 50 94 54 55 77 67 110 111 83</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 61 62 50 94 54 55 77 67 110 111 83</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\export\msp430f5438_hal\hal_board.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 143</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 124</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 54 61 62 50 94 55 77 67 110 111 83 10</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 54 61 62 50 94 55 77 67 110 111 83 10</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\export\msp430f5438_hal\hal_tlv.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 128</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 33</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 111 61 62 50 94</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 111 61 62 50 94</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\export\msp430f5438_hal\hal_usb.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 129</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 152</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 61 62 50 94 54 55 77 67 110 111 83 82 86 41 8 7 10 96 109 131 153 93 115 65 102 69 47 70 60 59 104 103 42 85 95 79 32 51 88 31 97 84 34 38 106 108 71 112 72 120 125 140 113 156 92 142 37</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 61 62 50 94 54 55 77 67 110 111 83 82 86 41 8 7 10 96 109 131 153 93 115 65 102 69 47 121 70 60 59 104 103 42 85 95 79 32 51 88 31 97 84 34 38 106 108 71 112 72 120 125 140 113 156 92 142 37</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\export\FreeRTOS\Source\croutine.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 105</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 154</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 42 85 102 69 47 70 60 59 104 95 82 61 62 50 94 79 86 41 32 156 92 64</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 42 85 102 69 47 121 70 60 59 104 95 82 61 62 50 94 79 86 41 32 156 92 64</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\export\FreeRTOS\Source\portable\MemMang\heap_2.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 74</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 46</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 130 102 69 47 70 60 59 104 42 85 95 82 61 62 50 94 79 86 41 32 156 92</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 130 102 69 47 121 70 60 59 104 42 85 95 82 61 62 50 94 79 86 41 32 156 92</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\export\FreeRTOS\Source\portable\MemMang\heap_bt.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 75</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 145</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 65 102 69 47 70 60 59 104 82 61 62 50 94 86 41 37 53</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 65 102 69 47 121 70 60 59 104 82 61 62 50 94 86 41 37 53</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\export\FreeRTOS\Source\list.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 76</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 146</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 130 102 69 47 70 60 59 104 42 85 95 82 61 62 50 94 79 86 41 32 92</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 130 102 69 47 121 70 60 59 104 42 85 95 82 61 62 50 94 79 86 41 32 92</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\export\FreeRTOS\Source\portable\IAR\MSP430\port.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 155</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 73</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 42 85 102 69 47 70 60 59 104 95 82 61 62 50 94 79 86 41 32 156 92</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 42 85 102 69 47 121 70 60 59 104 95 82 61 62 50 94 79 86 41 32 156 92</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\export\FreeRTOS\Source\portable\IAR\MSP430\portext.s43</name>
+      <outputs>
+        <tool>
+          <name>A430</name>
+          <file> 56</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>A430</name>
+          <file> 82 61 62</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\export\FreeRTOS\Source\queue.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 39</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 144</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 130 102 69 47 70 60 59 104 65 42 85 95 82 61 62 50 94 79 86 41 32 156 92 64 88</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 130 102 69 47 121 70 60 59 104 65 42 85 95 82 61 62 50 94 79 86 41 32 156 92 64 88</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\export\FreeRTOS\Source\tasks.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 133</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 132</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 106 102 69 47 70 60 59 104 108 130 65 42 85 95 82 61 62 50 94 79 86 41 32 156 92 68</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 106 102 69 47 121 70 60 59 104 108 130 65 42 85 95 82 61 62 50 94 79 86 41 32 156 92 68</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\export\common_appl\main.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 63</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 30</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 35 96 109 54 61 62 50 94 55 77 67 110 111 83 82 86 41 8 7 10 131 153 93 115 65 102 69 47 70 60 59 104 103 42 85 95 79 32 51 88 31 97 84 34 38 106 108 71 112 72 120 125 140 113 156 92 142 137 66 149 87 127 139 98 117</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 35 96 109 54 61 62 50 94 55 77 67 110 111 83 82 86 41 8 7 10 131 153 93 115 65 102 69 47 121 70 60 59 104 103 42 85 95 79 32 51 88 31 97 84 34 38 106 108 71 112 72 120 125 140 113 156 92 142 137 66 149 87 127 139 98 117</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 89 118</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\ez430-accl.d43</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 118</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 119 116 151 123 78 135 134 154 147 124 138 33 152 46 145 146 30 136 73 56 144 150 80 81 132 49 16 14 15 122</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Obj\ez430-accl.pbd</name>
+      <inputs>
+        <tool>
+          <name>BILINK</name>
+          <file> 57 52 148 43 44 105 45 143 40 128 129 74 75 76 63 99 155 39 100 101 114 133 141</file>
+        </tool>
+      </inputs>
+    </file>
+  </configuration>
+</project>
+
+
